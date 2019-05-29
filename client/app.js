@@ -21,7 +21,7 @@ App({
   onAuth() {
     var self = this;
     my.getAuthCode({
-      scopes: 'auth_base',
+      scopes: 'auth_user',
       success: (res) => {
         self.getAuthUserInfo();
       },
