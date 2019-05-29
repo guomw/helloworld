@@ -1,7 +1,4 @@
-
-// 请修改为您的小程序云应用的真实域名
-const DOMAIN_NAME = 'app2129675214test.mapp-test.xyz';
-
+const app = getApp();
 Page({
   onLoad(query) {
     // 页面加载
@@ -37,9 +34,27 @@ Page({
     };
   },
   sayHello() {
+    var self = this;
     my.alert({
       title: "提示",
-      content: "hello world"
+      content: `hello ${app.globalData.userInfo.nickName},准备开始扫描,请准备.`,
+      success: function() {
+        self.onTabScan();
+      }
     })
+  },
+  /**
+   * 点击扫码
+   */
+  onTabScan() {
+    my.scan({
+      type: 'qr',
+      success: (res) => {
+        my.alert({
+          title: "扫描成功",
+          content: res.code
+        });
+      },
+    });
   }
 });
