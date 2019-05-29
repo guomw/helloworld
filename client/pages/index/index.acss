@@ -1,5 +1,5 @@
 view {
-  
+   background-color: #f1f1f1;
 }
 text {
   margin-top: 50rpx;
@@ -12,7 +12,7 @@ view.bb{width: 100%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #ffffff;}
+  }
 .fst-keybtn{
   border-radius: 100%;
   display: block;
@@ -36,7 +36,7 @@ view.bb{width: 100%;
 .fst-keybtn .f1{background-color: transparent;height:100rpx}
 .fst-icon{ width: 80rpx; height:80rpx;margin-top: 20rpx;background-size: contain}
 
-.daohhh view{ flex-direction: initial}
+.daohhh view{ flex-direction: initial; background-color: #fff}
 
 /***导航**/
 .weui-tabbar {
@@ -80,7 +80,7 @@ view.bb{width: 100%;
 }
 
 .daohhh {
-     
+    
 }
 .daohhh .weui-tabbar.fx {
     position: fixed;
@@ -127,7 +127,7 @@ view.bb{width: 100%;
     border: 0px;
     vertical-align: middle;background-size: contain
 }
-.h{position: absolute;
+view.h{position: absolute;
     left: 0;
     right: 0;
     margin: 0 auto;
@@ -140,7 +140,7 @@ view.bb{width: 100%;
     background-color: #03d8a1;
     padding: 14rpx;
     display: block;}
-    .h image{background-size: contain;width: 100%;height: 100%;vertical-align: middle;margin-top: 5rpx;
+    .h image{background-size: contain;width: 100%;height: 100%;vertical-align: middle;margin-top: -30rpx;
    
      }
      .weui-badge{display: none;}
