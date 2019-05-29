@@ -1,0 +1,3 @@
+<view>
+  <button onTap="sayHello">点我啊</button>
+</view>
