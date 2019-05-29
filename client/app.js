@@ -12,6 +12,11 @@ App({
     // options.query == {number:1}
     console.info('App onLaunch');
     this.onAuth();
+    this.initBluetooth();
+    //禁用页面下拉
+    my.setCanPullDown({
+      canPullDown: false
+    })
   },
   onShow(options) {
     // 从后台被 scheme 重新打开
@@ -36,6 +41,20 @@ App({
       success: (userInfo) => {
         self.globalData.userInfo.nickName = userInfo.nickName;
         self.globalData.userInfo.avatar = userInfo.avatar;
+      }
+    });
+  },
+  initBluetooth() {
+    my.openBluetoothAdapter({
+      autoClose:false,
+      success: (res) => {
+
+      },
+      fail: (res) => {
+
+        
+      },
+      complete: (res) => {
       }
     });
   }
