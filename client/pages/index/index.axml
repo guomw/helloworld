@@ -1,8 +1,32 @@
-<view>
+<view class="bb">
   <button onTap="sayHello" class="fst-keybtn">
     <view class="f1"><image class="fst-icon"  mode="aspectfit" src="/image/icon_nav_door_c.png" onError="imageError" onLoad="imageLoad" /></view>
     <view class="f1">领取钥匙</view>
     </button>
 </view>
  	
- 
+ <!--导航-->
+<view class="daohhh">
+  <view style="height:56px;"></view>
+  <!--撑出导航重叠的部分-->
+   <view class="weui-tabbar fx"> <view href="index.html" class="weui-tabbar__item ">
+    <view class="weui-tabbar__icon"> <image mode="aspectfit" src="/images/img/icon_nav_home.png" onError="imageError" onLoad="imageLoad" alt=""> </view>
+    <view class="weui-tabbar__label">首页</view>
+    </view> <view href="list.html" class="weui-tabbar__item"> 
+    <view class="weui-tabbar__icon"> <image mode="aspectfit" src="/images/img/icon_nav_wk.png" onError="imageError" onLoad="imageLoad" alt="">  </view>
+    <view class="weui-tabbar__label">找工作</view>
+    </view>
+	 <view href="list.html" class="weui-tabbar__item weui-bar__item--on"><view class="weui-badge h"><image mode="aspectfit" src="/images/img/icon_nav_door_b.png" onError="imageError" onLoad="imageLoad" ></view>
+    <view class="weui-tabbar__icon"> <image mode="aspectfit" src="/images/img/icon_nav_door.png" onError="imageError" onLoad="imageLoad" alt="">  </view>
+    <view class="weui-tabbar__label">开门</view>
+    </view>
+	  <view href="#tab3" class="weui-tabbar__item">
+    <view class="weui-tabbar__icon"> <image mode="aspectfit" src="/images/img/icon_nav_sc.png" onError="imageError" onLoad="imageLoad" alt="">  </view>
+    <view class="weui-tabbar__label">商城</view>
+    </view> <view href="personal.html" class="weui-tabbar__item ">
+    <view class="weui-tabbar__icon"> <image mode="aspectfit" src="/images/img/icon_nav_my.png" onError="imageError" onLoad="imageLoad" alt="">  </view>
+    <view class="weui-tabbar__label">我的</view>
+    </view> </view>
+</view>	
+	
+	

@@ -1,15 +1,18 @@
 view {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: #ffffff;
+  
 }
 text {
   margin-top: 50rpx;
   color: #999;
 }
+view.bb{width: 100%;
+  display: flex;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;}
 .fst-keybtn{
   border-radius: 100%;
   display: block;
@@ -30,5 +33,113 @@ text {
   align-items: center;margin-top: -20%;
   
 }
-.fst-keybtn .f1{background-color: transparent}
+.fst-keybtn .f1{background-color: transparent;height:100rpx}
 .fst-icon{ width: 80rpx; height:80rpx;margin-top: 20rpx;background-size: contain}
+
+.daohhh view{ flex-direction: initial}
+
+/***导航**/
+.weui-tabbar {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    position: absolute;
+    z-index: 500;
+    bottom: 0;
+    width: 100%;
+    background-color: #f7f7fa;
+}
+.weui-badge {
+    display: inline-block;
+    padding: .15em .4em;
+    min-width: 8px;
+    border-radius: 18px;
+    background-color: #f43530;
+    color: #fff;
+    line-height: 1.2;
+    text-align: center;
+    font-size: 12px;
+    vertical-align: middle;
+}
+.weui-tabbar:before {
+    content: " ";
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 1px;
+    border-top: 1px solid #c0bfc4;
+    color: #c0bfc4;
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+    -webkit-transform: scaleY(.5);
+    transform: scaleY(.5);
+}
+.toolbar, .weui-tabbar__item {
+    position: relative;
+}
+
+.daohhh {
+     
+}
+.daohhh .weui-tabbar.fx {
+    position: fixed;
+    background-color: hsla(0,0%,100%,.95);
+    height: 112rpx;
+	left: 0;right: 0;width: 100%;
+}
+.daohhh .weui-badge {
+    padding: .11em .4em;
+}
+.daohhh .weui-tabbar__item.weui-bar__item--on .weui-tabbar__label {
+    color: #00c18f;
+}
+.daohhh .weui-tabbar__label {
+    text-align: center;
+    color: #999;
+    font-size: 22rpx;
+    line-height: 1.8;
+}
+.daohhh .weui-tabbar__icon {
+    display: inline-block;
+    width: 44rpx;
+    height: 44rpx;
+    margin: 6rpx 0px;
+}
+.daohhh .weui-badge {
+    line-height: 1.1;
+}
+.weui-tabbar__item {
+    display: block;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+    padding: 10rpx 0 0;
+    font-size: 0;
+    color: #999;
+    text-align: center;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+.weui-tabbar__icon image {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border: 0px;
+    vertical-align: middle;background-size: contain
+}
+.h{position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    width: 90rpx;
+    height: 90rpx;
+    border-radius: 100%;
+    top: -28rpx;
+    line-height: 90rpx;
+    background-color: #03d8a1;
+    padding: 14rpx;
+    display: block;}
+    .h image{background-size: contain;width: 100%;height: 100%;vertical-align: middle;margin-top: 5rpx;
+   
+     }
