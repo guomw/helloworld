@@ -1,3 +1,8 @@
 <view>
-  <button onTap="sayHello">点我啊</button>
+  <button onTap="sayHello" class="fst-keybtn">
+    <view class="f1"><image class="fst-icon"  mode="aspectfit" src="/image/icon_nav_door_c.png" onError="imageError" onLoad="imageLoad" /></view>
+    <view class="f1">领取钥匙</view>
+    </button>
 </view>
+ 	
+ 

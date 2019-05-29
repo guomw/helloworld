@@ -6,16 +6,29 @@ view {
   align-items: center;
   background-color: #ffffff;
 }
-
-button {
-  display: block;
-  width: 300rpx;
-  background-color: rgb(51, 51, 57);
-  color: #FFF;
-  border-radius: 50rpx;
-}
-
 text {
   margin-top: 50rpx;
   color: #999;
 }
+.fst-keybtn{
+  border-radius: 100%;
+  display: block;
+  width: 300rpx;height: 300rpx;
+  background-color:#a92e4b;
+  color: #FFF;  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;margin-top: -20%;
+  
+}
+.fst-keybtn .f1{background-color: transparent}
+.fst-icon{ width: 80rpx; height:80rpx;margin-top: 20rpx;background-size: contain}

@@ -3,8 +3,45 @@
     "pages/index/index"
   ],
   "window": {
-    "defaultTitle": "Hello World",
+    "defaultTitle": "全名认证智能门锁",
     "titleBarColor": "#ffffff",
     "backgroundColor": "#ffffff"
+  },
+  "tabBar": {
+    "textColor": "#dddddd",
+    "selectedColor": "#49a9ee",
+    "backgroundColor": "#ffffff",
+    "items": [
+      {
+        "pagePath": "pages/index/index",
+        "name": "首页",
+        "icon":"image/icon_nav_door_c.png",
+        "activeIcon":""
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "name": "商城",
+         "icon":"/image/icon_nav_door_c.png",
+        "activeIcon":""
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "name": "开门",
+         "icon":"image/icon_nav_door_c.png",
+        "activeIcon":""
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "name": "找工作",
+         "icon":"image/icon_nav_door_c.png",
+        "activeIcon":""
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "name": "我的",
+         "icon":"image/icon_nav_door_c.png",
+        "activeIcon":""
+      }
+    ]
   }
 }

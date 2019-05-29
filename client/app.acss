@@ -3,3 +3,18 @@ page {
   display: flex;
   background: #f7f7f7;
 }
+* {
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body, input, textarea, button, select {
+    font-family: Helvetica, STHeiti STXihei, Microsoft YaHei, Arial;
+   outline:none;   
+}
+body{margin: 0 auto;}
+li, ul {
+    list-style-type: none;
+}
