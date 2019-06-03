@@ -1,0 +1,40 @@
+page {
+  background:#ffffff; display: flex ; flex: 1;  flex-direction: column;
+  }
+.card-not-active .tile .h1,.card-active .tile .h1{font-size: 38rpx; color: #ffffff;position: absolute;right:40rpx;top:50rpx;}
+.card-not-active .tile,.card-active .tile{height: 160rpx;}
+.card-not-active .tile-nav,.card-active .tile-nav{color: #ffffff;margin:0rpx 50rpx;}
+.card-not-active .tile-nav .h4,.card-active .tile-nav .h4{font-size: 26rpx; display: flex;margin: 26rpx 0rpx 10rpx 0rpx;}
+.card-not-active .tile-nav .h5,.card-active .tile-nav .h5{font-size: 20rpx; display: flex}
+.card-not-active .card-btn,.card-active .card-btn {padding: 0rpx 40rpx 0rpx 50rpx;display:flex;flex-flow:row;position: absolute;bottom:40rpx;width: 100%;}
+.card-not-active .card-btn .bw,.card-active .card-btn .bw{width:180rpx;height: 45rpx;margin-left: 30rpx;margin-top: 20rpx;}
+.card-not-active .suo,.card-active .suo{width: 50rpx;height: 47rpx;margin-left: 6rpx;}
+.card-not-active .suo2,.card-active .suo2{width: 17rpx;height: 19rpx;}
+.card-not-active .sbtn,.card-active .sbtn{width: 64rpx;height: 64rpx;margin-top: -8rpx;}
+.card-not-active .w1,.card-active .w1{display:flex;/*设为伸缩容器*/  
+  flex-flow:row;/*伸缩项目单行排列*/margin: 20rpx;color: #ffffff;font-size: 26rpx; }
+.card-not-active .s2,.card-active .s2{flex:1;margin-left: 20rpx;margin-top: -4rpx; }
+.card-not-active .suo-tel text,.card-active .suo-tel text{margin-left:10rpx;font-size: 20rpx; }
+
+ 
+
+
+
+.card-active{background-color: #0633b6;
+background: #002daa; /* Old browsers */
+background: -moz-linear-gradient(left,  #002daa 0%, #1244d2 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #002daa 0%,#1244d2 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #002daa 0%,#1244d2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002daa', endColorstr='#1244d2',GradientType=1 ); /* IE6-9 */
+width: 680rpx;height: 420rpx;border-radius: 20rpx;position: relative;margin-top: 40rpx;margin: 30rpx auto 10rpx auto;}
+.card-not-active{background-color: #252525;
+background: #252525; /* Old browsers */
+background: -moz-linear-gradient(left,  #252525 0%, #404040 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #252525 0%,#404040 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #252525 0%,#404040 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#252525', endColorstr='#404040',GradientType=1 ); /* IE6-9 */
+width: 680rpx;height: 420rpx;border-radius: 20rpx;position: relative;margin-top: 40rpx;margin:30rpx auto 10rpx auto;}
+.card-active .tile .zw{width: 69rpx;height: 70rpx;position: absolute;left:56rpx;top:44rpx;display: none}
+.card-not-active .tile .zw{width: 69rpx;height: 70rpx;position: absolute;left:56rpx;top:44rpx;display: block}
+.card-active .card-btn .imggb{flex:1;border-radius: 10rpx;box-shadow: 0px 6rpx 0rpx rgba(0, 0, 0, 0.1);height: 90rpx;background-color: #1846c8;}
+.card-not-active .card-btn .imggb{flex:1;border-radius: 10rpx;box-shadow: 0px 6rpx 0rpx rgba(0, 0, 0, 0.1);height: 90rpx;background-color: #3b3b3b;}

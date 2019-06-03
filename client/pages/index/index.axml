@@ -6,9 +6,9 @@
 </view>
  	
  <!--导航-->
-<view class="daohhh">
+<!-- <view class="daohhh">
   <view style="height:56px;"></view>
-  <!--撑出导航重叠的部分-->
+ 
    <view class="weui-tabbar fx"> <view href="index.html" class="weui-tabbar__item ">
     <view class="weui-tabbar__icon"> <image mode="aspectfit" src="/images/img/icon_nav_home.png" onError="imageError" onLoad="imageLoad" alt=""> </view>
     <view class="weui-tabbar__label">首页</view>
@@ -27,6 +27,6 @@
     <view class="weui-tabbar__icon"> <image mode="aspectfit" src="/images/img/icon_nav_my.png" onError="imageError" onLoad="imageLoad" alt="">  </view>
     <view class="weui-tabbar__label">我的</view>
     </view> </view>
-</view>	
+</view>	 -->
 	
 	

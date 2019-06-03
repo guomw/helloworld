@@ -1,6 +1,4 @@
 page {
-  flex: 1;
-  display: flex;
   background: #f7f7f7;
 }
 * {
@@ -9,7 +7,7 @@ page {
 * {
     margin: 0;
     padding: 0;
-}
+} 
 body, input, textarea, button, select {
     font-family: Helvetica, STHeiti STXihei, Microsoft YaHei, Arial;
    outline:none;   

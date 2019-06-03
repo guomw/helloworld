@@ -1,0 +1,54 @@
+page {
+  background:#ffffff; display: flex ; flex: 1;  flex-direction: column;
+  }
+  .bs-key{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center; 
+}
+
+.bs-key .key{ 
+  width: 100%;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;text-align: center
+}
+.bs,.dr{width: 95rpx;height: 95rpx;}
+.key.loading{color: #ffffff;font-size:20rpx;}
+.key.loading .t1{font-size: 30rpx;margin-bottom: 16rpx;}
+.key.loading .t1,.key.loading .t2{display: flex;  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;}
+
+.bs-key{background-color: #0633b6;
+background: #002daa; /* Old browsers */
+background: -moz-linear-gradient(left,  #002daa 0%, #1244d2 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #002daa 0%,#1244d2 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #002daa 0%,#1244d2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002daa', endColorstr='#1244d2',GradientType=1 ); /* IE6-9 */
+width: 680rpx;margin: 20rpx auto 0rpx auto;padding:60rpx 30rpx 40rpx 30rpx;border-radius: 20rpx 20rpx 0rpx 0rpx;
+}
+.loadimg{width: 89rpx;height:15rpx;margin:14rpx auto;display: block; text-align: center}
+.bs-dz{background-color: #333;width: 680rpx;margin: 0rpx auto 20rpx auto;padding:20rpx 80rpx; color: #ffffff;font-size:24rpx; border-radius: 0rpx 0rpx 20rpx 20rpx;}
+
+.not .loadimg{display: none}
+.password-t{margin:40rpx 50rpx 20rpx 50rpx; }
+
+.password-i{margin:0rpx 50rpx 40rpx 50rpx;}
+.keyipt input{border-radius: 10rpx;width:100%; font-size: 38rpx;padding:22rpx 0rpx;height:40rpx;line-height: 40rpx;border: 1px solid #eee;text-align:center}
+.input-placeholder{font-size: 38rpx;height: 40rpx;line-height: 40rpx;}
+.keybtn button{height: 100rpx;line-height: 100rpx;background-color:#0633b6;border-radius: 10rpx;color: #ffffff;margin-top:30rpx;clear: both;border:none;}
+.password-d{margin:0rpx 50rpx 30rpx 50rpx; text-align: center;color: cornflowerblue; text-decoration: underline;font-size: 26rpx; }
+.nono{display: none}
+.nono.xs{display: block;display: flex ; flex: 1;  flex-direction: column;}
+
+button.ct{height: 20rpx;line-height: 20rpx;background-color: transparent;border: none;margin-bottom: 8rpx;}

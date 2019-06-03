@@ -1,3 +1,5 @@
+page{  flex: 1;
+  display: flex;}
 view {
    background-color: #f1f1f1;
 }

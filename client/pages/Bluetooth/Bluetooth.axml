@@ -1,0 +1,45 @@
+<view class="bs-key">
+<view class="key"><image mode="scaleToFill" src="/image/bs.png" class="bs"/></view>
+<view class="key loading">
+<text class="t1">蓝牙正在开门</text>
+<!-- <image mode="scaleToFill" src="/image/lod.png" class="loadimg"/> -->
+<button class="ct" type="primary"  loading="true"></button>
+<text class="t2">Please wait</text>
+</view>
+<view class="key"><image mode="scaleToFill" src="/image/dr.png" class="dr"/></view> 
+</view>
+<text class="bs-dz">浙江省杭州市就和路3312号</text>
+
+ 
+ 
+<view class="bs-key not"><!--not出错时加-->
+<view class="key"><image mode="scaleToFill" src="/image/bs.png" class="bs"/></view>
+<view class="key loading">
+<text class="t1">无法打开门</text>
+<image mode="scaleToFill" src="/image/lod.png" class="loadimg"/>
+<text class="t2">Report errors</text>
+</view>
+<view class="key"><image mode="scaleToFill" src="/image/dr.png" class="dr"/></view> 
+</view>
+<text class="bs-dz">浙江省杭州市就和路3312号</text>
+
+<view class="nono xs"><!--xs显示输入密码-->
+<text class="password-t">尝试使用密码开门</text>
+<view class="password-i">
+<view class="keyipt"><input type="number" placeholder="请输入6位密码" placeholder-class="input-placeholder" focus=""></input></view>
+<navigator url="/pages/bind/bind?title=bind"><view class="keybtn"><button size="default" type="primary">密码开门</button></view></navigator>
+</view>
+<text class="password-d">问题没解决，联系客服</text>
+ </view>
+     <script src="https://as.alipayobjects.com/g/component/fastclick/1.0.6/fastclick.js"></script>
+    <script>
+      if ('addEventListener' in document) {
+        document.addEventListener('DOMContentLoaded', function() {
+          FastClick.attach(document.body);
+        }, false);
+      }
+      if(!window.Promise) {
+        document.writeln('<script src="https://as.alipayobjects.com/g/component/es6-promise/3.2.2/es6-promise.min.js"'+'>'+'<'+'/'+'script>');
+      }
+    </script>
+ 

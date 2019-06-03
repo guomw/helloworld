@@ -1,0 +1,52 @@
+  <navigator url="/pages/Bluetooth/Bluetooth?title=Bluetooth">
+ <view class="card-active">
+<view class="tile">
+<image mode="scaleToFill" src="/image/zw.png" class="zw"/>
+<text class="h1">全民门卡01</text>
+</view>
+<view class="tile-nav">
+<text class="h4">地点：浙江省杭州市就和路3312号</text>
+<text class="h5">有效期：2019-10-10 至 2019-10-15 12:00</text>
+</view>
+<view class="card-btn"> 
+ 
+<view class="imggb">
+  <view class="w1">
+<image mode="scaleToFill" src="/image/suo.png" class="suo"/>
+  <view class="s2">
+    <text class="ztz">使用蓝牙开锁</text>
+    <view class="suo-tel"><image mode="scaleToFill" src="/image/suo2.png" class="suo2"/><text>***</text><text>2587</text></view>
+</view>
+   <image mode="scaleToFill" src="/image/sbtn.png" class="sbtn"/>
+  </view>
+</view>
+<image mode="scaleToFill" src="/image/bw.png" class="bw"/>
+</view>
+</view></navigator> 
+
+ <navigator url="/pages/bind/bind?title=bind">
+<view class="card-not-active">
+<view class="tile">
+<image mode="scaleToFill" src="/image/zw.png" class="zw"/>
+<text class="h1">点击领取门卡</text>
+</view>
+<view class="tile-nav">
+<text class="h4">地点：浙江省杭州市就和路3312号</text>
+<text class="h5">有效期：2019-10-10 至 2019-10-15 12:00</text>
+</view>
+<view class="card-btn">
+<view class="imggb">
+  <view class="w1">
+<image mode="scaleToFill" src="/image/suo.png" class="suo"/>
+  <view class="s2">
+    <text class="ztz">未激活</text>
+    <view class="suo-tel"><image mode="scaleToFill" src="/image/suo2.png" class="suo2"/><text>- -</text><text></text></view>
+</view>
+   <image mode="scaleToFill" src="/image/sbtn2.png" class="sbtn"/>
+  </view>
+</view>
+<image mode="scaleToFill" src="/image/bw.png" class="bw"/>  
+</view>
+</view>
+</navigator> 
+ 

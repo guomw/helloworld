@@ -1,6 +1,9 @@
 {
-  "pages": [
-    "pages/index/index"
+  "pages": [    
+    "pages/Bluetooth/Bluetooth",
+    "pages/bind/bind",
+    "pages/card/card",       
+    "pages/index/index"    
   ],
   "window": {
     "defaultTitle": "全名认证智能门锁",
@@ -8,4 +11,3 @@
     "backgroundColor": "#ffffff"
   }
 }
-  

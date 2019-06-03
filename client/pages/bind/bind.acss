@@ -1,0 +1,29 @@
+page{padding:50rpx  60rpx;background: #0633b6;}
+.h1{font-size: 48rpx;color: #ffffff;margin-bottom: 20rpx;display: block;font-weight: bold}
+.h4{font-size: 30rpx;color: #ffffff;display: block}
+
+.flxelr{flex: 1;display: flex;;margin-top: 40rpx;margin-bottom: 40rpx;position: relative}
+.flxelr input{border-radius: 10rpx 0rpx 0rpx 10rpx;-webkit-box-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;padding-left: 40rpx;font-size: 38rpx;padding:22rpx 30rpx;height: 50rpx;line-height: 50rpx;}
+.input-placeholder{font-size: 38rpx;height: 50rpx;line-height: 50rpx;}
+.flxelr button{border-radius: 0rpx 10rpx 10rpx 0rpx;font-size:28rpx;  
+  display:block;
+outline:none 0px;
+-webkit-appearance:none;
+box-sizing:border-box;
+padding:0px;
+text-align:center;
+overflow:hidden;
+text-overflow:ellipsis;
+word-break:break-word;
+white-space:nowrap;
+color:#0633b6;
+background-color:rgb(255, 255, 255);
+border:none;
+  padding-left: 40rpx;padding-right: 40rpx;
+  }
+
+.flxelr.yzm{width: 272rpx;margin-top: 20rpx;}
+.flxelr.yzm input{border-radius: 10rpx;}
+.wrbtn button{height: 100rpx;line-height: 100rpx;background-color:rgb(255, 255, 255);border-radius: 10rpx;color: #333333;margin-top: 60rpx;clear: both;border:none;}
