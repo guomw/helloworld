@@ -47,3 +47,8 @@
 </view> 
 </navigator> 
  
+
+<view class="klist">
+  <image mode="scaleToFill" src="/image/kp.png" class="kp"/>
+   <text class="k-tit">无可用门卡</text>
+  </view>

@@ -1,8 +1,8 @@
 {
-  "pages": [    
+  "pages": [ 
+    "pages/card/card",     
     "pages/Bluetooth/Bluetooth",
-    "pages/bind/bind",
-    "pages/card/card",       
+    "pages/bind/bind",         
     "pages/index/index"    
   ],
   "window": {

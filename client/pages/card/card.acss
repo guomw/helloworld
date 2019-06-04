@@ -38,3 +38,7 @@ width: 680rpx;height: 420rpx;border-radius: 20rpx;position: relative;margin-top:
 .card-not-active .tile .zw{width: 69rpx;height: 70rpx;position: absolute;left:56rpx;top:44rpx;display: block}
 .card-active .card-btn .imggb{flex:1;border-radius: 10rpx;box-shadow: 0px 6rpx 0rpx rgba(0, 0, 0, 0.1);height: 90rpx;background-color: #1846c8;}
 .card-not-active .card-btn .imggb{flex:1;border-radius: 10rpx;box-shadow: 0px 6rpx 0rpx rgba(0, 0, 0, 0.1);height: 90rpx;background-color: #3b3b3b;}
+
+.klist{margin: 200rpx auto 200rpx auto; text-align: center;}
+.kp{width: 140rpx;height: 140rpx;}
+.k-tit{display: block;font-size:28rpx; color: #cccccc;line-height: 28rpx;margin-top: 10rpx;}
