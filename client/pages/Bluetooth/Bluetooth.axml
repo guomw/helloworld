@@ -15,7 +15,7 @@
 <view class="bs-key not"><!--not出错时加-->
 <view class="key"><image mode="scaleToFill" src="/image/bs.png" class="bs"/></view>
 <view class="key loading">
-<text class="t1">无法打开门</text>
+<text class="t1">开锁失败</text>
 <image mode="scaleToFill" src="/image/lod.png" class="loadimg"/>
 <text class="t2">Report errors</text>
 </view>
@@ -24,10 +24,9 @@
 <text class="bs-dz">浙江省杭州市就和路3312号</text>
 
 <view class="nono xs"><!--xs显示输入密码-->
-<text class="password-t">尝试使用密码开门</text>
-<view class="password-i">
-<view class="keyipt"><input type="number" placeholder="请输入6位密码" placeholder-class="input-placeholder" focus=""></input></view>
-<navigator url="/pages/bind/bind?title=bind" class="keybtn">密码开门</navigator>
+<text class="password-t">尝试使用密码开门</text> 
+<view class="password-x">
+  <text class="text">7</text><text class="text">0</text><text class="text">5</text><text class="text">4</text><text class="text">1</text><text class="text">6</text>
 </view>
  <text class="password-d">问题没解决，联系客服</text>
  </view>

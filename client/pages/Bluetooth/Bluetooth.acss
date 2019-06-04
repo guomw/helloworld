@@ -41,8 +41,7 @@ width: 680rpx;margin: 20rpx auto 0rpx auto;padding:60rpx 30rpx 40rpx 30rpx;borde
 .bs-dz{background-color: #333;width: 680rpx;margin: 0rpx auto 20rpx auto;padding:20rpx 80rpx; color: #ffffff;font-size:24rpx; border-radius: 0rpx 0rpx 20rpx 20rpx;}
 
 .not .loadimg{display: none}
-.password-t{margin:40rpx 50rpx 20rpx 50rpx; }
-
+.password-t{margin:20rpx 50rpx 20rpx 50rpx; }
 .password-i{margin:0rpx 50rpx 40rpx 50rpx;}
 .keyipt input{border-radius: 10rpx;width:100%; font-size: 38rpx;padding:22rpx 0rpx;height:40rpx;line-height: 40rpx;border: 1px solid #eee;text-align:center}
 .input-placeholder{font-size: 38rpx;height: 40rpx;line-height: 40rpx;}
@@ -58,8 +57,28 @@ white-space:nowrap;
 
 
 }
-.password-d{margin:0rpx 50rpx 30rpx 50rpx; text-align: center;color: cornflowerblue; text-decoration: underline;font-size: 26rpx; }
+.password-d{margin:40rpx 50rpx 30rpx 50rpx; text-align: center;color: cornflowerblue; text-decoration: underline;font-size: 26rpx; }
 .nono{display: none}
 .nono.xs{display: block;display: flex ; flex: 1;  flex-direction: column;}
 
 button.ct{height: 20rpx;line-height: 20rpx;background-color: transparent;border: none;margin-bottom: 8rpx;}
+.password-x{ 
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;margin: 10rpx 40rpx;
+}
+
+.password-x .text{ background-color:#f9f9f9;font-size: 40rpx;color: #555555;
+  width: 100%;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;text-align: center;border-left:2rpx solid #eee;border-top:2rpx solid #eee;border-bottom:2rpx solid #eee;padding:30rpx 40rpx; 
+}
+.password-x .text:first-of-type{border-radius: 20rpx 0rpx 0rpx 20rpx;}
+.password-x .text:last-of-type{border-radius: 0rpx 20rpx 20rpx 0rpx;border-right:2rpx solid #eee;}
