@@ -40,23 +40,10 @@ width: 680rpx;margin: 20rpx auto 0rpx auto;padding:60rpx 30rpx 40rpx 30rpx;borde
 .loadimg{width: 89rpx;height:15rpx;margin:14rpx auto;display: block; text-align: center}
 .bs-dz{background-color: #333;width: 680rpx;margin: 0rpx auto 20rpx auto;padding:20rpx 80rpx; color: #ffffff;font-size:24rpx; border-radius: 0rpx 0rpx 20rpx 20rpx;}
 
-.not .loadimg{display: none}
+.not .ct{display: none}
 .password-t{margin:20rpx 50rpx 20rpx 50rpx; }
-.password-i{margin:0rpx 50rpx 40rpx 50rpx;}
-.keyipt input{border-radius: 10rpx;width:100%; font-size: 38rpx;padding:22rpx 0rpx;height:40rpx;line-height: 40rpx;border: 1px solid #eee;text-align:center}
-.input-placeholder{font-size: 38rpx;height: 40rpx;line-height: 40rpx;}
-.keybtn{height: 100rpx;line-height: 100rpx;background-color:#0633b6;border-radius: 10rpx;color: #ffffff;margin-top:30rpx;clear: both;border:none;
-text-align:center;
-font-size:36rpx;
-height:100rpx;
-line-height:100rpx; 
-overflow:hidden;
-text-overflow:ellipsis;
-word-break:break-word;
-white-space:nowrap;
-
-
-}
+ 
+ 
 .password-d{margin:40rpx 50rpx 30rpx 50rpx; text-align: center;color: cornflowerblue; text-decoration: underline;font-size: 26rpx; }
 .nono{display: none}
 .nono.xs{display: block;display: flex ; flex: 1;  flex-direction: column;}

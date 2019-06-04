@@ -16,7 +16,7 @@
 <view class="key"><image mode="scaleToFill" src="/image/bs.png" class="bs"/></view>
 <view class="key loading">
 <text class="t1">开锁失败</text>
-<image mode="scaleToFill" src="/image/lod.png" class="loadimg"/>
+<button class="ct" type="primary"  loading="true"></button>
 <text class="t2">Report errors</text>
 </view>
 <view class="key"><image mode="scaleToFill" src="/image/dr.png" class="dr"/></view> 
