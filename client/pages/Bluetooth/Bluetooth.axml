@@ -27,11 +27,11 @@
 <text class="password-t">尝试使用密码开门</text>
 <view class="password-i">
 <view class="keyipt"><input type="number" placeholder="请输入6位密码" placeholder-class="input-placeholder" focus=""></input></view>
-<navigator url="/pages/bind/bind?title=bind"><view class="keybtn"><button size="default" type="primary">密码开门</button></view></navigator>
+<navigator url="/pages/bind/bind?title=bind" class="keybtn">密码开门</navigator>
 </view>
-<text class="password-d">问题没解决，联系客服</text>
+ <text class="password-d">问题没解决，联系客服</text>
  </view>
-     <script src="https://as.alipayobjects.com/g/component/fastclick/1.0.6/fastclick.js"></script>
+     <script src="https://as.alipayobjects.com/g/component/fastclick/1.0.6/fastclick.js"></script><!--解决IOS延迟300秒遮罩后点不中的问题-->
     <script>
       if ('addEventListener' in document) {
         document.addEventListener('DOMContentLoaded', function() {

@@ -1,5 +1,4 @@
-  <navigator url="/pages/Bluetooth/Bluetooth?title=Bluetooth">
- <view class="card-active">
+  <navigator url="/pages/Bluetooth/Bluetooth?title=Bluetooth" class="card-active"> 
 <view class="tile">
 <image mode="scaleToFill" src="/image/zw.png" class="zw"/>
 <text class="h1">全民门卡01</text>
@@ -22,10 +21,9 @@
 </view>
 <image mode="scaleToFill" src="/image/bw.png" class="bw"/>
 </view>
-</view></navigator> 
+ </navigator> 
 
- <navigator url="/pages/bind/bind?title=bind">
-<view class="card-not-active">
+ <navigator url="/pages/bind/bind?title=bind" class="card-not-active"> 
 <view class="tile">
 <image mode="scaleToFill" src="/image/zw.png" class="zw"/>
 <text class="h1">点击领取门卡</text>
@@ -46,7 +44,6 @@
   </view>
 </view>
 <image mode="scaleToFill" src="/image/bw.png" class="bw"/>  
-</view>
-</view>
+</view> 
 </navigator> 
  
