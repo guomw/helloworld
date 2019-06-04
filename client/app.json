@@ -6,7 +6,7 @@
     "pages/index/index"    
   ],
   "window": {
-    "defaultTitle": "全名认证智能门锁",
+    "defaultTitle": "全民门卡测试小程序",
     "titleBarColor": "#ffffff",
     "backgroundColor": "#ffffff"
   }
