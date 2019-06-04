@@ -26,7 +26,7 @@
 
  <navigator url="/pages/bind/bind?title=bind" class="card-not-active"> 
 <view class="tile">
-  <image mode="scaleToFill" src="/image/zw2.png" class="zw2"/>
+<image mode="scaleToFill" src="/image/zw2.png" class="zw2"/>
 <image mode="scaleToFill" src="/image/zw.png" class="zw"/>
 <text class="h1">点击领取门卡</text>
 </view>
