@@ -1,13 +1,12 @@
 {
-  "pages": [ 
-     "pages/Bluetooth/Bluetooth",
-    "pages/card/card",     
-   
-    "pages/bind/bind",         
+  "pages": [      
+    "pages/card/card", 
+    "pages/bind/bind", 
+    "pages/Bluetooth/Bluetooth",        
     "pages/index/index"    
   ],
   "window": {
-    "defaultTitle": "全民门卡测试小程序",
+    "defaultTitle": "全民门卡",
     "titleBarColor": "#ffffff",
     "backgroundColor": "#ffffff"
   }
