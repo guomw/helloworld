@@ -24,7 +24,11 @@ var config={
   /**
    * 校验验证码绑定手机
    */
-  checkVerifyCode:`${host}/checkVerifyCode`
+  checkVerifyCode:`${host}/checkVerifyCode`,
+  /**
+   * 获取用户信息
+   */
+  findUserInfo:`${host}/userinfo`
 }
 
 module.exports=config

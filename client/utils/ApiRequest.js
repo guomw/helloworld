@@ -53,5 +53,10 @@ module.exports = {
   /**
    * 获取用户信息
    */
-  findUserInfo: apiRequest(config.findUserInfo, data, callback)
+  findUserInfo: apiRequest(config.findUserInfo, data, callback),
+  /**
+   * 获取指令
+   */
+  findDirective: apiRequest(config.findUserInfo, data, callback)
+
 }
