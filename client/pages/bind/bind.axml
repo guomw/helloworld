@@ -1,7 +1,7 @@
 <text class="h1">查找我的房门卡</text>
 <text class="h4">请输入预定房间时的手机号码</text>
 <view class="flxelr">
-  <input type="number" placeholder="输入手机号" onInput="bindKeyInput" data-type="mobile" maxlength="11" placeholder-class="input-placeholder" focus="true"></input>
+  <input type="number" placeholder="输入手机号" onInput="bindKeyInput" data-type="mobile" maxlength="11" placeholder-class="input-placeholder"></input>
   <button size="default" onTap="onSendVerifyCode" type="primary">{{btnVerifyCodeText}}</button></view>
 <text class="h4">输入验证码</text>
 <view class="flxelr yzm">
