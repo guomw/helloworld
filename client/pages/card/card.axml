@@ -55,7 +55,7 @@
    <text class="k-tit">无可用门卡</text>
   </view>
 
-
+<view class="h114"></view>
  <navigator url="/pages/bind/bind?title=bind" class="qhbf">
  <view class="witbg">
  更换手机号
