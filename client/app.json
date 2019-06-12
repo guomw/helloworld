@@ -1,7 +1,7 @@
 {
-  "pages": [
-      "pages/card/card", 
-     "pages/bind/bind", 
+  "pages": [    
+    "pages/bind/bind",
+    "pages/card/card",       
     "pages/Bluetooth/Bluetooth",        
     "pages/index/index"    
   ],

@@ -26,22 +26,6 @@ Page({
     // 页面被拉到底部
   },
   onShareAppMessage() {
-    // 返回自定义分享信息
-    return {
-      title: 'My App',
-      desc: 'My App description',
-      path: 'pages/index/index',
-    };
-  },
-  sayHello() {
-    var self = this;
-    my.alert({
-      title: "提示",
-      content: `hello ${app.globalData.userInfo.nickName},准备开始扫描,请准备.`,
-      success: function() {
-        self.onTabScan();
-      }
-    })
   },
   /**
    * 点击扫码
