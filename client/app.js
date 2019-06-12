@@ -1,17 +1,12 @@
 App({
   globalData: {
-    isAuthed: false,
-    userInfo: {
-      nickName: "",
-      avatar: "",
-      mobile: ""
-    }
+    logintype: 0,//0支付宝 1 微信
+    authCode: ""
   },
   onLaunch(options) {
-    // 第一次打开
-    // options.query == {number:1}
-    console.info('App onLaunch');
+    //授权      
     this.onAuth();
+    //初始化蓝牙
     this.initBluetooth();
     //禁用页面下拉
     my.setCanPullDown({
@@ -19,44 +14,71 @@ App({
     })
   },
   onShow(options) {
-    // 从后台被 scheme 重新打开
-    // options.query == {number:1}
   },
-
+  /**
+   * 授权获取authCode
+   */
   onAuth() {
     var self = this;
     my.getAuthCode({
-      scopes: 'auth_user',
+      scopes: 'auth_base',
       success: (res) => {
-        self.getAuthUserInfo();
+        self.globalData.authCode = res.authCode;
       },
     });
   },
   /**
-   * 获取授权用户信息
+   * 初始化蓝牙
    */
-  getAuthUserInfo() {
-    var self = this;
-    my.getAuthUserInfo({
-      success: (userInfo) => {
-        self.globalData.userInfo.nickName = userInfo.nickName;
-        self.globalData.userInfo.avatar = userInfo.avatar;
-      }
-    });
-  },
   initBluetooth() {
     my.openBluetoothAdapter({
-      autoClose:false,
+      autoClose: false,
       success: (res) => {
-
+        if (!res.isSupportBLE) {
+          my.alert({
+            title: "当前设备不支持蓝牙"
+          });
+        }
       },
       fail: (res) => {
-
-        
+        if (!res.isSupportBLE) {
+          my.alert({
+            title: res.msg
+          });
+        }
+        else {
+          my.alert({
+            title: res.errorMessage
+          });
+        }
       },
       complete: (res) => {
       }
     });
+  },
+  /**
+   * 网络请求
+   */
+  request(options) {
+    var self = this;
+    options = options || {}
+    const requestTask = my.request({
+      url: options.url || '',
+      data: options.data || {},
+      method: options.method || 'POST',
+      dataType: options.dataType || 'json',
+      timeout: options.timeout || 30000,//超时时间，单位 ms，默认 30000
+      success: (res) => {
+        if (typeof options.success == 'function') {
+          options.success(res);
+        }
+      },
+      fail: (err) => {
+        if (typeof options.fail == 'function') {
+          options.fail(err);
+        }
+      }
+    });
   }
 });
- 
+
