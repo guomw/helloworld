@@ -1,8 +1,24 @@
-const app = getApp();
+import api from '../../utils/ApiRequest.js'
+const app = getApp()
 Page({
   onLoad(query) {
     // 页面加载
     console.info(`Page onLoad with query: ${JSON.stringify(query)}`);
+    api.request(api.config.login, {
+      authcode: app.globalData.authcode,
+      logintype: 0
+    }, (data) => {
+      //0成功，1没有手机号，2失败
+      if (data.state == 0 || data.state == 1) {
+        app.globalData.token = data.data.token;
+      }
+      //当没有手机时，跳转手机绑定页面
+      if (data.state == 1||data.state == 5000) {
+        my.redirectTo({
+          url: '../bind/bind'
+        })
+      }
+    })
   },
   onReady() {
     // 页面加载完成

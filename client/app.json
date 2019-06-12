@@ -1,9 +1,9 @@
 {
   "pages": [    
+        "pages/index/index",
     "pages/bind/bind",
     "pages/card/card",       
-    "pages/Bluetooth/Bluetooth",        
-    "pages/index/index"    
+    "pages/Bluetooth/Bluetooth"
   ],
   "window": {
     "defaultTitle": "全民门卡",

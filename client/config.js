@@ -1,7 +1,7 @@
 /**
  * 小程序配置文件
  */
-var host = "";
+var host = "https://www.xx.com";
 
 var config={
   host,
