@@ -1,24 +1,23 @@
-
-
- 
-<text class="h1">查找我的房门卡</text> 
+<text class="h1">查找我的房门卡</text>
 <text class="h4">请输入预定房间时的手机号码</text>
-<view class="flxelr"><input type="number" placeholder="输入手机号" placeholder-class="input-placeholder" focus="true"></input>
-<button size="default" type="primary">获取验证码</button></view>
+<view class="flxelr">
+  <input type="number" placeholder="输入手机号" onInput="bindKeyInput" data-type="mobile" maxlength="11" placeholder-class="input-placeholder" focus="true"></input>
+  <button size="default" onTap="onSendVerifyCode" type="primary">{{btnVerifyCodeText}}</button></view>
 <text class="h4">输入验证码</text>
-<view class="flxelr yzm"><input type="number" placeholder="验证码" placeholder-class="input-placeholder"></input></view>
-
-<navigator url="/pages/card/card?title=card" class="wrbtn">下一步</navigator>
- 
-     <script src="https://as.alipayobjects.com/g/component/fastclick/1.0.6/fastclick.js"></script><!--解决IOS延迟300秒遮罩后点不中的问题-->
-    <script>
+<view class="flxelr yzm">
+  <input type="number" placeholder="验证码" onInput="bindKeyInput" data-type="verifyCode" placeholder-class="input-placeholder"></input>
+</view>
+<button size="default" type="primary" onTap="onStep" class="wrbtn">下一步</button>
+<script src="https://as.alipayobjects.com/g/component/fastclick/1.0.6/fastclick.js"></script>
+<!--解决IOS延迟300秒遮罩后点不中的问题-->
+<script>
       if ('addEventListener' in document) {
         document.addEventListener('DOMContentLoaded', function() {
           FastClick.attach(document.body);
         }, false);
       }
       if(!window.Promise) {
-        document.writeln('<script src="https://as.alipayobjects.com/g/component/es6-promise/3.2.2/es6-promise.min.js"'+'>'+'<'+'/'+'script>');
+        document.writeln('
+  <script src="https://as.alipayobjects.com/g/component/es6-promise/3.2.2/es6-promise.min.js"'+'>'+'<'+'/'+'script>');
       }
-    </script>
- 
+  </script>
