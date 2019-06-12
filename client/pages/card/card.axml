@@ -23,7 +23,7 @@
 <image mode="scaleToFill" src="/image/bw.png" class="bw"/>
 </view>
  </navigator> 
-
+ 
  <navigator url="/pages/bind/bind?title=bind" class="card-not-active"> 
 <view class="tile">
 <image mode="scaleToFill" src="/image/zw2.png" class="zw2"/>
@@ -31,7 +31,7 @@
 <text class="h1">点击领取门卡</text>
 </view>
 <view class="tile-nav">
-<text class="h4">地点：浙江省杭州市就和路3312号</text>
+<text class="h4">地点：浙江省****3312号</text>
 <text class="h5">有效期：2019-10-10 至 2019-10-15 12:00</text>
 </view>
 <view class="card-btn">
@@ -39,7 +39,7 @@
   <view class="w1">
 <image mode="scaleToFill" src="/image/suo.png" class="suo"/>
   <view class="s2">
-    <text class="ztz">未激活</text>
+    <text class="ztz">使用蓝牙开锁</text>
     <view class="suo-tel"><image mode="scaleToFill" src="/image/suo2.png" class="suo2"/><text>- -</text><text></text></view>
 </view>
    <image mode="scaleToFill" src="/image/sbtn2.png" class="sbtn"/>
@@ -54,3 +54,10 @@
   <image mode="scaleToFill" src="/image/kp.png" class="kp"/>
    <text class="k-tit">无可用门卡</text>
   </view>
+
+
+ <navigator url="/pages/bind/bind?title=bind" class="qhbf">
+ <view class="witbg">
+ 更换手机号
+ </view>
+ </navigator> 

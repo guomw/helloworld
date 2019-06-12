@@ -50,3 +50,13 @@ box-shadow: 0px 10rpx 20rpx rgba(98, 98, 98, 0.5);
 .klist{margin: 200rpx auto 200rpx auto; text-align: center;}
 .kp{width: 140rpx;height: 140rpx;}
 .k-tit{display: block;font-size:28rpx; color: #cccccc;line-height: 28rpx;margin-top: 10rpx;}
+
+.qhbf{background-color:#f8f8f8;position:fixed;bottom: 0;left: 0;right: 0;width: 100%;padding:18rpx;}
+.witbg{text-align: center;height: 90rpx;line-height: 90rpx;color: #ffffff;font-size: 30rpx;border-radius: 8rpx;
+background-color: #252525;
+background: #252525; /* Old browsers */
+background: -moz-linear-gradient(left,  #252525 0%, #404040 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #252525 0%,#404040 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #252525 0%,#404040 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#252525', endColorstr='#404040',GradientType=1 ); /* IE6-9 */
+}

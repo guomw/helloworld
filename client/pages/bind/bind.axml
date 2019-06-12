@@ -1,8 +1,8 @@
 
 
  
-<text class="h1">没有找到门卡？</text> 
-<text class="h4">支付宝账号未绑定手机号导致查询不到\n输入预定房间时的手机号码看看</text>
+<text class="h1">查询门卡</text> 
+<text class="h4">请输入预定房间时的手机号码</text>
 <view class="flxelr"><input type="number" placeholder="手机号" placeholder-class="input-placeholder" focus="true"></input>
 <button size="default" type="primary">获取验证码</button></view>
 <text class="h4">输入验证码</text>
