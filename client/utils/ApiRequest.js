@@ -11,7 +11,7 @@ import config from '../config.js'
 const app = getApp();
 
 var apiRequest = function(url, data, callback) {
-  app.request(app.getParameter(url,data,callback));
+  app.request(app.getOptions(url,data,callback));
 }
 
 module.exports = {
